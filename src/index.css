@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Optional global tweaks */
+html, body {
+@apply bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200 transition-colors duration-300;
+}
+
+
+.container {
+@apply max-w-screen-lg mx-auto px-4;
+}
+
+
+/* Make forms and sections look neat */
+input, textarea {
+@apply border border-slate-300 dark:border-slate-700 bg-transparent rounded-md px-3 py-2;
+}
