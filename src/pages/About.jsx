@@ -19,7 +19,7 @@ I’m always curious, always learning, and always excited to take on new project
 
 <h3 className="mt-6 font-semibold">Skills</h3>
 <div className="mt-2 flex flex-wrap gap-2">
-{['HTML','CSS','React','Tailwind CSS','Node.js','C/C++','JavaScript','GitHub','Figma'].map(s => (
+{['HTML','CSS','Tailwind CSS',,'JavaScript','Mongodb','Expressjs','React','Nodejs','C/C++','GitHub','Figma'].map(s => (
 <span key={s} className="px-3 py-1 text-sm border rounded-md">{s}</span>
 ))}
 </div>
