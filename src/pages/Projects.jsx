@@ -9,6 +9,20 @@ const projects = [
     link: 'https://bellavista-aditya.netlify.app/', // 🔗 live website
   },
   {
+    title: 'Aditya Industries Website (Full Stack MERN Project)',
+  desc: 'Developed and deployed a full-stack website for a manufacturing business to build digital presence and manage customer inquiries efficiently.',
+  stack: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'Tailwind CSS'],
+  link: 'https://aditya-industries-website.vercel.app/',
+  
+  // details: [
+  //   'Responsive UI for all devices',
+  //   'Contact form with backend API & database integration',
+  //   'RESTful APIs using Node.js & Express',
+  //   'Deployed on Vercel (frontend) & Render (backend)',
+  //   'Hands-on experience with CORS and API integration'
+  // ]
+  },
+  {
     title: 'Cyber Job Simulation (Deloitte)',
     desc: 'Practical cybersecurity simulation exercises focusing on threat analysis.',
     stack: ['Security', 'Simulation'],
