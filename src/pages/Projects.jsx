@@ -13,14 +13,6 @@ const projects = [
   desc: 'Developed and deployed a full-stack website for a manufacturing business to build digital presence and manage customer inquiries efficiently.',
   stack: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'Tailwind CSS'],
   link: 'https://aditya-industries-website.vercel.app/',
-  
-  // details: [
-  //   'Responsive UI for all devices',
-  //   'Contact form with backend API & database integration',
-  //   'RESTful APIs using Node.js & Express',
-  //   'Deployed on Vercel (frontend) & Render (backend)',
-  //   'Hands-on experience with CORS and API integration'
-  // ]
   },
   {
     title: 'Cyber Job Simulation (Deloitte)',
@@ -28,12 +20,19 @@ const projects = [
     stack: ['Security', 'Simulation'],
     link: 'https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/E9pA6qsdbeyEkp3ti_9PBTqmSxAf6zZTseP_bTwo9KZeHm8xFo6CE_1750925550437_completion_certificate.pdf', // 🔗 certificate link
   },
+
+  {
+    title: 'React Native Course (Tutedude)',
+    desc: 'Learned to build cross-platform mobile applications using React Native and JavaScript.',
+    stack: ['React Native', 'JavaScript'],
+    link: 'https://drive.google.com/file/d/1C7Kje_U5jwBkZqlr-gHFQGFqz9gEH6hX/view?usp=drive_link', // 🔗 certificate link
+  },
 ]
 
 export default function Projects() {
   return (
     <section>
-      <h2 className="text-2xl font-bold mb-6">Projects</h2>
+      <h2 className="text-2xl font-bold mb-6">Projects & Certifications</h2>
 
       <div className="grid md:grid-cols-2 gap-6">
         {projects.map((p) => (
@@ -42,7 +41,7 @@ export default function Projects() {
       </div>
 
       <div className="mt-8 text-sm text-slate-600 dark:text-slate-400">
-        More projects are in progress — I love building small, focused web apps and learning security tooling.
+        More projects & certifications are in progress 
       </div>
     </section>
   )
