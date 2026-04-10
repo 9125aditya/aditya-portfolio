@@ -17,11 +17,50 @@ I’m always curious, always learning, and always excited to take on new project
 
 
 
-<h3 className="mt-6 font-semibold">Skills</h3>
-<div className="mt-2 flex flex-wrap gap-2">
-{['HTML','CSS','Tailwind CSS',,'JavaScript','Mongodb','Expressjs','React','Nodejs','C/C++','GitHub','REST APIs'].map(s => (
-<span key={s} className="px-3 py-1 text-sm border rounded-md">{s}</span>
-))}
+<h3 className="mt-6 font-semibold">Tech Stack</h3>
+
+<div className="mt-4 space-y-4">
+
+  {/* Languages */}
+  <div>
+    <h4 className="font-medium">Languages</h4>
+    <div className="mt-2 flex flex-wrap gap-2">
+      {['JavaScript','Java', 'C/C++', 'HTML5', 'CSS3'].map(s => (
+        <span key={s} className="px-3 py-1 text-sm border rounded-md">{s}</span>
+      ))}
+    </div>
+  </div>
+
+  {/* Frontend */}
+  <div>
+    <h4 className="font-medium">Frontend</h4>
+    <div className="mt-2 flex flex-wrap gap-2">
+      {['React.js', 'React Native', 'Tailwind CSS'].map(s => (
+        <span key={s} className="px-3 py-1 text-sm border rounded-md">{s}</span>
+      ))}
+    </div>
+  </div>
+
+  {/* Backend */}
+  <div>
+    <h4 className="font-medium">Backend</h4>
+    <div className="mt-2 flex flex-wrap gap-2">
+      {['Node.js', 'Express.js', 'MongoDB'].map(s => (
+        <span key={s} className="px-3 py-1 text-sm border rounded-md">{s}</span>
+      ))}
+    </div>
+  </div>
+
+  {/* Tools */}
+  <div>
+    <h4 className="font-medium">Tools</h4>
+    <div className="mt-2 flex flex-wrap gap-2">
+      {['Git & GitHub', 'Postman', 'VS Code'].map(s => (
+        <span key={s} className="px-3 py-1 text-sm border rounded-md">{s}</span>
+      ))}
+    </div>
+  </div>
+
 </div>
 
 
