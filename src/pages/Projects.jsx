@@ -2,17 +2,22 @@ import React from 'react'
 import ProjectCard from '../components/ProjectCard'
 
 const projects = [
-  {
-    title: 'Bella Vista Restaurant Website',
-    desc: 'Responsive restaurant website with menus, contact form, and modern UI.',
-    stack: ['HTML', 'CSS', 'Tailwind'],
-    link: 'https://bellavista-aditya.netlify.app/', // 🔗 live website
-  },
+  // {
+  //   title: 'Bella Vista Restaurant Website',
+  //   desc: 'Responsive restaurant website with menus, contact form, and modern UI.',
+  //   stack: ['HTML', 'CSS', 'Tailwind'],
+  //   link: 'https://bellavista-aditya.netlify.app/', // 🔗 live website
+  // },
   {
     title: 'Aditya Industries Website (Full Stack MERN Project)',
   desc: 'Developed and deployed a full-stack website for a manufacturing business to build digital presence and manage customer inquiries efficiently.',
-  stack: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'Tailwind CSS'],
+  stack: ['MongoDB', 'Express.js', 'React.js', 'Node.js', ],
   link: 'https://aditya-industries-website.vercel.app/',
+  },
+   {
+    title: 'Donut Chat (Chat Application)',
+  desc: 'Built a real-time chat application using the React Native framework, enabling users to communicate seamlessly across platforms with a user-friendly interface.',
+  stack: ["React Native", "Firebase", "JavaScript", "MongoDB"],
   },
   {
     title: 'Cyber Job Simulation (Deloitte)',
